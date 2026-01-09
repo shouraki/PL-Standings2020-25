@@ -1,7 +1,8 @@
 # Premier League Standings ETL Pipeline
 
 ## Architecture 
-<img width="1374" height="1322" alt="image" src="https://github.com/user-attachments/assets/25a3b638-ebf4-4ed5-bd86-a96aaa5d7eb2" />
+<img width="1092" height="947" alt="1plarchiecture" src="https://github.com/user-attachments/assets/db86b364-eed0-447c-984d-07d1152b7364" />
+
 
 ## Overview
 This project builds an ETL pipeline that extracts live Premier League standings from the API-Football service and loads them into a MySQL database. The pipeline uses UPSERT logic to handle both new inserts and updates, allowing it to be run repeatedly as the season progresses without creating duplicate records.
